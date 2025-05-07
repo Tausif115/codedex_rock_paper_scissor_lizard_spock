@@ -1,7 +1,7 @@
 import random
 
 player = int(input("Rock Paper Scissors Lizard Spock\n1) ✊\n2) ✋\n3) ✌️\n4) 🦎\n5) 🖖\nPick a number: "))
-computer = random.randint(1, 3)
+computer = random.randint(1, 5)
 
 print("Your chose: ", end = " ")
 if player == 1:
